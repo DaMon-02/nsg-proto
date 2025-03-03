@@ -45,16 +45,19 @@ This shows that I created two virtual machines: one running Microsoft Windows Se
 
 
 
-
-
+<strong>-Needed!-</strong>
 Here I am downloading Wireshark, it is essential for examining network traffic as it captures and analyzes packets, helping to monitor and troubleshoot communication between devices. It provides detailed insights into protocols, packet flow, and potential issues, making it a vital tool for diagnosing network problems and ensuring security.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+![icmp traffic](https://github.com/user-attachments/assets/e97e9cfb-de80-45cc-9886-56b6c00549e0)
+![Screenshot 2025-03-03 160517](https://github.com/user-attachments/assets/ccc4b744-e254-4112-8b33-e2d15388dc6b)
+![Annotation 2025-03-03 211331](https://github.com/user-attachments/assets/b3fbbdba-864f-4b71-bcac-77114e2cacf5)
+![Annotation 2025-03-03 213201](https://github.com/user-attachments/assets/b5c167b1-c9a5-4858-b579-50282157ad24)
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I launched PowerShell within the virtual machine to monitor network packets, filtering and analyzing ICMP traffic while focusing on the data flow. Next, I configured the Linux VM's cloud firewall and network security group to block all incoming ping traffic, effectively stopping any further ping requests. In the screenshot, you can see this happening as "Request Timed Out" is repeatedly displayed. Finally, I connected to the Linux VM, filtered for SSH traffic, and observed the continuous flow of SSH traffic across the network.
 </p>
 <br />
