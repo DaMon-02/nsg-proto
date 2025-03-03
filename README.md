@@ -15,7 +15,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH & ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- I will create a resource group in Azure that includes two virtual machines: one running Windows 10 and the other running Ubuntu/Linux. Additionally, I will set up a virtual network with subnets. During this process, I'll configure network security groups and firewalls on the virtual machines to manage their interactions. I'll access both virtual machines using Remote Desktop, starting with logging into VM-1. Once logged in, I'll install Wireshark on VM-1 to monitor the network traffic between the two VMs. Using PowerShell, I'll establish communication between the VMs and track the inbound and outbound traffic in Wireshark. I'll initiate a continuous ping from the Windows 10 VM to the Ubuntu VM, then open the NSG for the Ubuntu VM in Azure to disable inbound ICMP traffic, effectively creating a firewall. Finally, I’ll filter and monitor traffic for ICMP ,SSH, DHCP, DNS, and RDP
+- I will create a resource group in Azure that includes two virtual machines: one running Windows 10 and the other running Ubuntu/Linux. Additionally, I will set up a virtual network with subnets. During this process, I'll configure network security groups and firewalls on the virtual machines to manage their interactions. I'll access both virtual machines using Remote Desktop, starting with logging into VM-1. Once logged in, I'll install Wireshark on VM-1 to monitor the network traffic between the two VMs. Using PowerShell, I'll establish communication between the VMs and track the inbound and outbound traffic in Wireshark. I'll initiate a continuous ping from the Windows 10 VM to the Ubuntu VM, then open the NSG for the Ubuntu VM in Azure to disable inbound ICMP traffic, effectively creating a firewall. Finally, I’ll filter and monitor traffic for ICMP & SSH
 
 <h2>Actions and Observations</h2>
 
