@@ -46,7 +46,8 @@ This shows that I created two virtual machines: one running Microsoft Windows Se
 
 
 
-Downloading WireShark to examine traffic
+
+Here I am downloading Wireshark, it is essential for examining network traffic as it captures and analyzes packets, helping to monitor and troubleshoot communication between devices. It provides detailed insights into protocols, packet flow, and potential issues, making it a vital tool for diagnosing network problems and ensuring security.
 </p>
 <br />
 
