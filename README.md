@@ -39,10 +39,14 @@ This shows that I created two virtual machines: one running Microsoft Windows Se
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+![Annotation 2025-03-03 201511](https://github.com/user-attachments/assets/a9d25280-e4d1-4301-b358-e86e126fe84f)
+
+
+
+
+
+Downloading WireShark to examine traffic
 </p>
 <br />
 
